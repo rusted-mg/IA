@@ -14,6 +14,12 @@
 2733 - RANDIAMAMPIANDRA Tianarilanto Christian Mario Gabriel  
 2734 - RAENIRINA Johnny Marc Faniry  
 
+# EXECUTION
+Lancez l'application avec la commande :  
+``` bash  
+    python app.py  
+```
+
 # OUTILS UTILISES
 Programme **PROLOG** d'enquête judiciaire executé à partir de **PYTHON** et **TKINKER**  
 
