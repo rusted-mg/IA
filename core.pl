@@ -1,7 +1,15 @@
-% Crime Type
+% Type de crime
 crime_type(assassinat).
 crime_type(vol).
 crime_type(escroquerie).
+
+% Prédicats par défaut
+has_motive(_, _) :- fail.
+was_near_crime_scene(_, _) :- fail.
+has_fingerprint_on_weapon(_, _) :- fail.
+eyewitness_identification(_, _) :- fail.
+has_bank_transaction(_, _) :- fail.
+owns_fake_identity(_, _) :- fail.
 
 % Règles
 is_guilty(Suspect, vol) :-
