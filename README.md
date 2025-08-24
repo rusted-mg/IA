@@ -15,7 +15,7 @@
 2734 - RAENIRINA Johnny Marc Faniry  
 
 # OUTILS UTILISES
-Programme **PROLOG** d'enquête judiciaire executé et à partir de **PYTHON** et **TKINKER**  
+Programme **PROLOG** d'enquête judiciaire executé à partir de **PYTHON** et **TKINKER**  
 
 # ARBORESCENCE
 Projet_IA/  
