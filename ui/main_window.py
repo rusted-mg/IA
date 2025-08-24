@@ -51,7 +51,7 @@ class FactEntryWindow:
         self.entry_suspect = ttk.Entry(self.root, width=34)
         self.entry_suspect.pack()
 
-        ttk.Label(self.root, text="Crime type (not needed if 'suspect' fact):").pack(pady=5)
+        ttk.Label(self.root, text="Crime type (not needed with 'suspect'):").pack(pady=5)
         self.entry_crime_var = tk.StringVar()
         self.entry_crime_menu = ttk.Combobox(
             self.root, 
@@ -68,7 +68,7 @@ class FactEntryWindow:
         self.facts_listbox = tk.Listbox(self.root, width=60)
         self.facts_listbox.pack(pady=5)
 
-        finish_btn = ttk.Button(self.root, text="Finish", command=self.finish_facts)
+        finish_btn = ttk.Button(self.root, text="Check guilt", command=self.finish_facts)
         finish_btn.pack(pady=15)
     
     def add_fact(self):
